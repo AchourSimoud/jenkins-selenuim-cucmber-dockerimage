@@ -48,7 +48,7 @@ pipeline {
                        [key: 'Submitter', value: 'Nom du soumetteur non disponible']
                     ],
                     reportTitle: 'My report',
-                    fileIncludePattern:  'reports/cucumber-report.json',
+                    fileIncludePattern:  'reports/*.json',
                     sortingMethod: 'ALPHABETICAL',
                     trendsLimit: 100
 
