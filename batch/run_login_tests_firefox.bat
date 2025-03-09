@@ -1,0 +1,1 @@
+mvn test -D cucumber.plugin="html:reports/rapportLogin.html" -D cucumber.filter.tags="@login" -D browser="firefox"

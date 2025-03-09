@@ -1,0 +1,1 @@
+mvn test -D cucumber.plugin="html:reports/rapportCheckoutOverview.html" -D cucumber.filter.tags="@checkoutoverview" -D browser="chrome"

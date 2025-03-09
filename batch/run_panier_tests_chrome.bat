@@ -1,0 +1,1 @@
+mvn test -D cucumber.plugin="html:reports/rapportPanier.html" -D cucumber.filter.tags="@panier" -D browser="chrome"

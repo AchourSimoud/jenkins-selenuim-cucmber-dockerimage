@@ -1,0 +1,1 @@
+mvn test -D cucumber.plugin="html:reports/rapportProduits.html" -D cucumber.filter.tags="@produits" -D browser="firefox"

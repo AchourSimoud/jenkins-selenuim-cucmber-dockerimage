@@ -1,0 +1,1 @@
+mvn test -D cucumber.plugin="json:reports/rapportTotal.json" -D browser="chrome"

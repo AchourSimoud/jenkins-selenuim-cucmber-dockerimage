@@ -1,0 +1,1 @@
+mvn test -D cucumber.plugin="html:reports/rapportTotal.html" -D browser="firefox"
