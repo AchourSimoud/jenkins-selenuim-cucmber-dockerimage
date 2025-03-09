@@ -16,8 +16,8 @@ pipeline {
                 script {
                     // Installer Maven et Java dans le conteneur
                     sh '''
-                    sudo apt-get update && \
-                    sudo apt-get install -y maven openjdk-21-jdk
+                    apt-get update && \
+                    apt-get install -y maven openjdk-21-jdk
                     '''
                     
                     // Créer le répertoire cache de Selenium pour éviter les problèmes de permission
